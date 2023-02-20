@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.repo-filter-item {
+  margin: 10px;
+}
+
+.repo-item-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: 700;
+}

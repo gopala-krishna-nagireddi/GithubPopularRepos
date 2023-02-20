@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.repo-item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f8ff;
+  margin: 20px;
+}
+
+.repo-img {
+  width: 150px;
+  height: 150px;
+}
+
+.repo-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #e73959;
+}
+
+.statistics-container {
+  align-self: flex-start;
+}
+
+.statistic-container {
+  display: flex;
+  align-items: center;
+}
+
+.statistic-img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-item {
+    width: 30%;
+  }
+}
